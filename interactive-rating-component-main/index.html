@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <main class="container">
+
+    <div class="img">
+      <img src="images/icon-star.svg" alt="Star">
+    </div>
+
+    <h1>How did we do?</h1>
+    <p class="main-paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <ul id="ratings">
+      <li><button class="btn">1</button></li>
+      <li><button class="btn">2</button></li>
+      <li><button class="btn">3</button></li>
+      <li><button class="btn">4</button></li>
+      <li><button class="btn">5</button></li>
+    </ul>
+    <button id="submit" class="btn-submit">Submit</button>
+  </main>
+
+  <div class="thank-you hidden">
+    <img src="images/illustration-thank-you.svg" alt="Thhank-you image.">
+    <p class="gray">
+      You selected <span id="rating"></span> out of 5
+    </p>
+    
+    <h2>Thank-you</h2>
+
+    <p>We appreciate you tanking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+
+    <button id="rate-again" class="btn-submit">Rate again</button>
+  </div>
+
+  <script src="script.js">
+
+  </script>
+</body>
+</html>
